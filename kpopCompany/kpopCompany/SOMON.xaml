@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="kpopCompany.SOMON">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Blue">
+            <Frame BackgroundColor="Black" Padding="24" CornerRadius="0">
+                <Label Text="Test Company Groups   SOMON" HorizontalTextAlignment="Center" TextColor="Blue" FontSize="36"/>
+            </Frame>
+            <Button Text="PREPARE FOR COMEBACK" BackgroundColor="Black" TextColor="Blue" FontAttributes="Bold" FontSize="14" HorizontalOptions="Center" WidthRequest="400"/>
+            <Label Margin="20,50,0,0"  Text="Group Name: SOMON" TextColor="White"/>
+            <Label Margin="20,50,0,0"  Text="Fandom Name: Mademoiselle (12M members)" TextColor="White"/>
+            <Label Margin="20,0,0,0"  TextColor="White"  Text="Days since debut: 447"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0" Text="Wins: 19" VerticalOptions="Center" TextColor="White" Margin="20,0,0,0"/>
+                <Label Grid.Column="1" Text="Perform comeback to join stages." VerticalOptions="Center" TextColor="White" WidthRequest="300" Margin="0,0,50,0"/>
+            </Grid>
+            <Grid HeightRequest="100" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0" Text="Albums: 1" VerticalOptions="Center" TextColor="White" Margin="20,0,0,0"/>
+                <Label Grid.Column="0" Text="EPs: 2" VerticalOptions="Center" TextColor="White" Margin="20,40,0,0"/>
+                <Label Grid.Column="0" Text="Singles: 4" VerticalOptions="Center" TextColor="White" Margin="20,80,0,0"/>
+                <Button Grid.Column="1" Text="Head into the Studio" VerticalOptions="Center" BackgroundColor="Black"  TextColor="Blue" WidthRequest="300" Margin="0,40,50,0"/>
+            </Grid>
+            <Label Text="MEMBERS" TextColor="Black" FontAttributes="Bold" HorizontalOptions="Center"/>
+            <Grid HeightRequest="100" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Image Grid.Column="0" Source="https://stardewvalleywiki.com/mediawiki/images/b/bd/Elliott.png" VerticalOptions="Center" HeightRequest="60" Margin="0,0,0,0"/>
+                <Label Grid.Column="0" Text="Eli" VerticalOptions="Center" TextColor="White" Margin="20,80,0,0"/>
+                <Label Grid.Column="1" Text="Leader, Main Vocalist" VerticalOptions="Center" TextColor="White" Margin="0,0,0,0" WidthRequest="200"/>
+                <Label Grid.Column="1" Text="26, Korean" VerticalOptions="Center" TextColor="White" Margin="0,60,0,0" WidthRequest="200"/>
+                <Button Grid.Column="2" Text="Train" BackgroundColor="Black" TextColor="Blue" Margin="0,40,10,0" HeightRequest="30"/>
+                <Button Grid.Column="3" Text="Solo Debut" BackgroundColor="Black" TextColor="Blue" Margin="0,40,10,0" HeightRequest="30"/>
+            </Grid>
+            <Grid HeightRequest="100" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Image Grid.Column="0" Source="https://stardewvalleywiki.com/mediawiki/images/a/a8/Sebastian.png" VerticalOptions="Center" HeightRequest="60" Margin="0,0,0,0"/>
+                <Label Grid.Column="0" Text="Sebo" VerticalOptions="Center" TextColor="White" Margin="20,80,0,0"/>
+                <Label Grid.Column="1" Text="Main Rapper, Lead Vocalist" VerticalOptions="Center" TextColor="White" Margin="0,0,0,0" WidthRequest="200"/>
+                <Label Grid.Column="1" Text="25, Japanese" VerticalOptions="Center" TextColor="White" Margin="0,60,0,0" WidthRequest="200"/>
+                <Button Grid.Column="2" Text="Train" BackgroundColor="Black" TextColor="Blue" Margin="0,40,10,0" HeightRequest="30"/>
+                <Button Grid.Column="3" Text="Solo Debut" BackgroundColor="Black" TextColor="Blue" Margin="0,40,10,0" HeightRequest="30"/>
+            </Grid>
+            <Grid HeightRequest="100" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Image Grid.Column="0" Source="https://stardewvalleywiki.com/mediawiki/images/9/94/Sam.png" VerticalOptions="Center" HeightRequest="60" Margin="0,0,0,0"/>
+                <Label Grid.Column="0" Text="S.A.M." VerticalOptions="Center" TextColor="White" Margin="20,80,0,0"/>
+                <Label Grid.Column="1" Text="Lead Rapper" VerticalOptions="Center" TextColor="White" Margin="0,0,0,0" WidthRequest="200"/>
+                <Label Grid.Column="1" Text="21, Japanese" VerticalOptions="Center" TextColor="White" Margin="0,60,0,0" WidthRequest="200"/>
+                <Button Grid.Column="2" Text="Train" BackgroundColor="Black" TextColor="Blue" Margin="0,40,10,0" HeightRequest="30"/>
+                <Button Grid.Column="3" Text="Solo Debut" BackgroundColor="Black" TextColor="Blue" Margin="0,40,10,0" HeightRequest="30"/>
+            </Grid>
+            <Grid HeightRequest="100" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Image Grid.Column="0" Source="https://stardewvalleywiki.com/mediawiki/images/0/04/Alex.png" VerticalOptions="Center" HeightRequest="60" Margin="0,0,0,0"/>
+                <Label Grid.Column="0" Text="Alex" VerticalOptions="Center" TextColor="White" Margin="20,80,0,0"/>
+                <Label Grid.Column="1" Text="Maknae, Main Dancer" VerticalOptions="Center" TextColor="White" Margin="0,0,0,0" WidthRequest="200"/>
+                <Label Grid.Column="1" Text="20, American" VerticalOptions="Center" TextColor="White" Margin="0,60,0,0" WidthRequest="200"/>
+                <Button Grid.Column="2" Text="Train" BackgroundColor="Black" TextColor="Blue" Margin="0,40,10,0" HeightRequest="30"/>
+                <Button Grid.Column="3" Text="Solo Debut" BackgroundColor="Black" TextColor="Blue" Margin="0,40,10,0" HeightRequest="30"/>
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Button Grid.Column="1" x:Name="Back" Text="Back" Clicked="OnClicked_Back" BackgroundColor="Black" TextColor="Blue"/>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,1 @@
+C:\Users\burak\source\repos\kpopCompany\kpopCompany\kpopCompany.UWP\kpopCompany.UWP.csproj;x86

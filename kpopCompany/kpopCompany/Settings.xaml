@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="kpopCompany.Settings" BackgroundColor="Black">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Settings" FontSize="Title" VerticalOptions="Center" HorizontalOptions="Center" TextColor="LightPink" Margin="0,100,0,50"/>
+            <Grid BackgroundColor="Black">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0" Text="Music" HorizontalOptions="Start" VerticalOptions="Center" TextColor="LightPink"  BackgroundColor="Black" Margin="100,0,0,0"/>
+                <Button Grid.Column="1" x:Name="Music"  Text="On" HorizontalOptions="End" VerticalOptions="Center" BackgroundColor="LightPink" TextColor="Black" Margin="0,0,100,0" WidthRequest="100"/>
+            </Grid>
+            <Grid BackgroundColor="Black">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0" Text="Sound" HorizontalOptions="Start" VerticalOptions="Center" TextColor="LightPink"  BackgroundColor="Black" Margin="100,0,0,0"/>
+                <Button Grid.Column="1" x:Name="Sound"  Text="On" HorizontalOptions="End" VerticalOptions="Center" BackgroundColor="LightPink" TextColor="Black" Margin="0,0,100,0" WidthRequest="100"/>
+            </Grid>
+            <Grid BackgroundColor="Black" Margin="0,0,0,50">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0" Text="Language" HorizontalOptions="Start" VerticalOptions="Center" TextColor="LightPink"  BackgroundColor="Black" Margin="100,0,0,0"/>
+                <Button Grid.Column="1" x:Name="Language"  Text="English" HorizontalOptions="End" VerticalOptions="Center" BackgroundColor="LightPink" TextColor="Black" Margin="0,0,100,0" WidthRequest="100"/>
+            </Grid>
+            <Grid BackgroundColor="Black">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0" Text="Privacy Policy" HorizontalOptions="Start" VerticalOptions="Center" TextColor="LightPink"  BackgroundColor="Black" Margin="100,0,0,0"/>
+                <Button Grid.Column="1" x:Name="Privacy"  Text="Accepted" HorizontalOptions="End" VerticalOptions="Center" BackgroundColor="LightPink" TextColor="Black" Margin="0,0,100,0" WidthRequest="100"/>
+            </Grid>
+            <Grid BackgroundColor="Black">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0" Text="Terms of Service" HorizontalOptions="Start" VerticalOptions="Center" TextColor="LightPink"  BackgroundColor="Black" Margin="100,0,0,0"/>
+                <Button Grid.Column="1" x:Name="Terms"  Text="Accepted" HorizontalOptions="End" VerticalOptions="Center" BackgroundColor="LightPink" TextColor="Black" Margin="0,0,100,0" WidthRequest="100"/>
+            </Grid>
+            <Button x:Name="Back" Text="Back" Clicked="OnClicked_Back" TextColor="Black" BackgroundColor="LightPink"  HorizontalOptions="Center" FontSize="Medium" VerticalOptions="End" WidthRequest="400" HeightRequest="50" Margin="0,300,0,0"/> 
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

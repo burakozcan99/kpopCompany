@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "3VXC5QLTGJnMxtthWWuEf89aZndhH7igT2U5BDhLiik5vPfLUrp5LQsZKjdNNY6Mnp+5y4dZZ+Rvwk1nywHoDQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\burak\\source\\repos\\kpopCompany\\kpopCompany\\kpopCompany\\kpopCompany.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\burak\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\burak\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\burak\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\burak\\.nuget\\packages\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Users\\burak\\.nuget\\packages\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}

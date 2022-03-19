@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="kpopCompany.Groups">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="Black" Padding="24" CornerRadius="0">
+                <Label Text="Test Company Groups" HorizontalTextAlignment="Center" TextColor="LightPink" FontSize="36"/>
+            </Frame>
+            <Grid BackgroundColor="Black">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0" Text="Funds: 365K Won" VerticalOptions="Center" TextColor="LightPink" Margin="50,0,0,0"/>
+                <Label Grid.Column="1" Text="Groups: 1 GG, 1 BG" VerticalOptions="Center" TextColor="LightPink"  BackgroundColor="Black" Margin="20,0,0,0"/>
+                <Label Grid.Column="2" Text="Trainees: 5" VerticalOptions="Center" TextColor="LightPink"  BackgroundColor="Black" Margin="20,0,0,0"/>
+            </Grid>
+            <Grid BackgroundColor="LightPink">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Button Grid.Column="0" Clicked="STAR" Text="STAR" VerticalOptions="Center" TextColor="Black" Margin="20,0,0,0"/>
+                <Image Grid.Column="1" Source="https://stardewvalleywiki.com/mediawiki/images/6/63/Abigail_Icon.png" VerticalOptions="Center" Margin="0,0,0,0"/>
+                <Image Grid.Column="1" Source="https://stardewvalleywiki.com/mediawiki/images/f/f7/Haley_Icon.png" VerticalOptions="Center" Margin="50,0,0,0"/>
+                <Image Grid.Column="1" Source="https://stardewvalleywiki.com/mediawiki/images/6/6e/Leah_Icon.png" VerticalOptions="Center" Margin="100,0,0,0"/>
+            </Grid>
+            <Grid BackgroundColor="Blue">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Button Grid.Column="0" Clicked="SOMON" Text="S-omon" VerticalOptions="Center" TextColor="Black" Margin="20,0,0,0"/>
+                <Image Grid.Column="1" Source="https://stardewvalleywiki.com/mediawiki/images/6/6f/Elliott_Icon.png" VerticalOptions="Center" Margin="0,0,0,0"/>
+                <Image Grid.Column="1" Source="https://stardewvalleywiki.com/mediawiki/images/6/6a/Sebastian_Icon.png" VerticalOptions="Center" Margin="50,0,0,0"/>
+                <Image Grid.Column="1" Source="https://stardewvalleywiki.com/mediawiki/images/5/52/Sam_Icon.png" VerticalOptions="Center" Margin="100,0,0,0"/>
+                <Image Grid.Column="1" Source="https://stardewvalleywiki.com/mediawiki/images/7/73/Alex_Icon.png" VerticalOptions="Center" Margin="150,0,0,0"/>
+            </Grid>
+            <Button x:Name="Back" Text="Back" Clicked="OnClicked_Back" TextColor="Black" BackgroundColor="LightPink"  HorizontalOptions="Center" FontSize="Medium" VerticalOptions="End" WidthRequest="400" HeightRequest="50" Margin="0,300,0,0"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

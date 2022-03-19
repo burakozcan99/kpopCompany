@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="kpopCompany.newGame">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="LightPink">
+            <Frame BackgroundColor="Black" Padding="24" CornerRadius="0">
+                <Label Text="K-pop Company Game" HorizontalTextAlignment="Center" TextColor="LightPink" FontSize="36"/>
+            </Frame>
+            <Label Text="New Game" HorizontalTextAlignment="Center" VerticalOptions="Center" TextColor="Black" FontSize="24" Margin="0,250,0,0"/>
+            <Entry Placeholder="Name your Company" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="250"/>
+            <Grid BackgroundColor="Black">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Button Grid.Column="0" x:Name="Easy"  Text="Easy" VerticalOptions="Center" BackgroundColor="LightPink" TextColor="Black" Margin="50,0,0,0" WidthRequest="100"/>
+                <Label Grid.Column="1" Text="Extra funds and experienced trainees. Faster progression" VerticalOptions="Center" TextColor="LightPink"  BackgroundColor="Black" Margin="0,0,100,0"/>
+            </Grid>
+            <Grid BackgroundColor="Black">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Button Grid.Column="0" x:Name="Medium"  Text="Medium" VerticalOptions="Center" BackgroundColor="LightPink" TextColor="Black" Margin="50,0,0,0" WidthRequest="100"/>
+                <Label Grid.Column="1" Text="Normal beggining. No extra funds or trainees, normal progression." VerticalOptions="Center" TextColor="LightPink"  BackgroundColor="Black" Margin="0,0,100,0"/>
+            </Grid>
+            <Grid BackgroundColor="Black" Margin="0,0,0,50">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Button Grid.Column="0" x:Name="Hard"  Text="Hard" VerticalOptions="Center" BackgroundColor="LightPink" TextColor="Black" Margin="50,0,0,0" WidthRequest="100"/>
+                <Label Grid.Column="1" Text="Less funds and no trainees. Slower and harder progression." HorizontalOptions="Start" VerticalOptions="Center" TextColor="LightPink"  BackgroundColor="Black" Margin="0,0,100,0"/>
+            </Grid>
+            <Button x:Name="Start" Text="Start!" BackgroundColor="Black" TextColor="LightPink" Clicked="OnClicked" WidthRequest="125" VerticalOptions="Center" HorizontalOptions="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

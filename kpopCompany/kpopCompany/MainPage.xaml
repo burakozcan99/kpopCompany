@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="kpopCompany.MainPage">
+
+    <StackLayout BackgroundColor="LightPink">
+        <Frame BackgroundColor="Black" Padding="24" CornerRadius="0">
+            <Label Text="K-pop Company Game" HorizontalTextAlignment="Center" TextColor="LightPink" FontSize="36"/>
+        </Frame>
+        <Label Text="Welcome!" TextColor="Black" FontSize="Title" Padding="30,10,30,10"/>
+        <Label Text="Start your company now" TextColor="Black" FontSize="Title" Padding="30,10,30,10"/>
+        <Label Text="Debut new groups, hire new trainees, spread Koreanwave to world!" TextColor="Black" FontSize="16" Padding="30,0,30,0"/>
+        <Button x:Name="Newgame" Text="Start New Company" Clicked="OnClicked_New" TextColor="LightPink" BackgroundColor="Black"  HorizontalOptions="Center" FontSize="Medium" VerticalOptions="Center" WidthRequest="400" HeightRequest="50" Margin="0,100,0,10"/>
+        <Button x:Name="Loadgame" Text="Continue Existing Company" Clicked="OnClicked" TextColor="LightPink" BackgroundColor="Black"  HorizontalOptions="Center" FontSize="Medium" VerticalOptions="Center" WidthRequest="400" HeightRequest="50" Margin="0,0,0,50"/>
+        <Button x:Name="Wiki" Text="Encyclopedia" Clicked="OnClicked_Wiki" TextColor="LightPink" BackgroundColor="Black"  HorizontalOptions="Center" FontSize="Medium" VerticalOptions="Center" WidthRequest="400" HeightRequest="50" Margin="0,0,0,10"/>
+        <Button x:Name="Settings" Text="Settings" Clicked="OnClicked_Settings" TextColor="LightPink" BackgroundColor="Black"  HorizontalOptions="Center" FontSize="Medium" VerticalOptions="Center" WidthRequest="400" HeightRequest="50" Margin="0,0,0,10"/>
+        <Button x:Name="Exit" Text="Exit" Clicked="OnClicked_Exit" TextColor="LightPink" BackgroundColor="Black"  HorizontalOptions="Center" FontSize="Medium" VerticalOptions="Center" WidthRequest="400" HeightRequest="50"/>
+    </StackLayout>
+
+</ContentPage>

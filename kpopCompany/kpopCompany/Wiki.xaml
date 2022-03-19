@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="kpopCompany.Wiki">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Encyclopedia of K-pop" FontSize="Title" VerticalOptions="Center" HorizontalOptions="Center" TextColor="LightPink" Margin="0,50,0,30"/>
+            <ListView x:Name="ListView" Margin="20" ItemsSource="{Binding .}"/>
+            <Image HorizontalOptions="Fill" HeightRequest="150" WidthRequest="300" Source="https://image.kpopmap.com/2020/04/61049d222e8f70bf9987b1aa36dfb0fc.jpg"/>
+            <Label Text="DREAMCATCHER" FontSize="Large" TextColor="Yellow" HorizontalOptions="Center"/>
+            <Label TextColor="White" Margin="20,0,0,0" Text="Dreamcatcher (드림캐쳐) consists of 7 members: JiU, SuA, Siyeon, Handong, Yoohyeon, Dami, and Gahyeon. Each member represents a nightmare or fear. The group debuted on January 13, 2017, under Happyface Entertainment. They are currently under Dreamcatcher Company."/>
+            <Button x:Name="Back" Text="Back" Clicked="OnClicked_Back" TextColor="Black" BackgroundColor="LightPink"  HorizontalOptions="Center" FontSize="Medium" WidthRequest="400" HeightRequest="50" Margin="0,25,0,0"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

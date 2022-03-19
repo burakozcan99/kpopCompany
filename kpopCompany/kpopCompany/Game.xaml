@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="kpopCompany.Game">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="Black" Padding="24" CornerRadius="0">
+                <Label Text="Test Company" HorizontalTextAlignment="Center" TextColor="LightPink" FontSize="36"/>
+            </Frame>
+            <Grid BackgroundColor="Black">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0" Text="Funds: 365K Won" VerticalOptions="Center" TextColor="LightPink" Margin="50,0,0,0"/>
+                <Label Grid.Column="1" Text="Groups: 1 GG, 1 BG" VerticalOptions="Center" TextColor="LightPink"  BackgroundColor="Black" Margin="20,0,0,0"/>
+                <Label Grid.Column="2" Text="Trainees: 5" VerticalOptions="Center" TextColor="LightPink"  BackgroundColor="Black" Margin="20,0,0,0"/>
+            </Grid>
+            <Label Text="NEWS" HorizontalOptions="Fill" HorizontalTextAlignment="Center" TextColor="White" BackgroundColor="Purple"/>
+            <Label Text="-- Dreamcatcher has won 'first win' at Inkigayo Comeback Stage with 'BOCA'." FontAttributes="Bold" Margin="10,0,5,0" />
+            <Label Text="-- CENG Entertainment has announced bankruptcy!" FontAttributes="Bold" Margin="10,0,5,0"  />
+            <Label Text="-- YG Entertainment has announced that BLACKPINK won't have a comeback." FontAttributes="Bold" Margin="10,0,5,0"  />
+            <Label Text="!! Monthly Updates... Income at 12k Won, 2 new trainees enlisted" FontAttributes="Bold" Margin="10,0,5,0"  />
+            <Label Text="-- STAR of Test Company debuts with 4 members." FontAttributes="Bold" Margin="10,0,5,0"  />
+            <Label Text="-- Taeyeon from SNSD has won 'win' at Inkigayo Comeback Stage with 'Can't Control Myself'." FontAttributes="Bold" Margin="10,0,5,0"  />
+            <Label Text="-- Kim Lip from LOONA was involved in scandal 'nuclear warfare terrorism'." FontAttributes="Bold" Margin="10,0,5,0"  />
+            <Label Text="-- Hwa Sa from MAMAMOO has won 'win' at Mnet Comeback Stage with 'I'm a B'." FontAttributes="Bold" Margin="10,0,5,0"  />
+            <Button x:Name="Groups" Text="Groups" Clicked="OnClicked_Groups" HorizontalOptions="Center" WidthRequest="400" Margin="50,20,50,0" BackgroundColor="LightPink" TextColor="Black"/>
+            <Button x:Name="Trainees" Text="Trainees" Clicked="OnClicked_Trainees" HorizontalOptions="Center" WidthRequest="400" Margin="50,20,50,50" BackgroundColor="LightPink" TextColor="Black"/>
+            <Grid BackgroundColor="Purple">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0" Text="Dorm Capacity: 4 groups, 10 trainees" VerticalOptions="Center" TextColor="LightPink" Margin="20,0,0,0"/>
+                <Button Grid.Column="1" Text="Upgrade Dorm! 500K Won" VerticalOptions="Center" BackgroundColor="LightPink"  TextColor="Black" Margin="0,0,50,0"/>
+            </Grid>
+            <Label TextColor="White" Text="Upgrading to Dorm Level 2: Gangnam Plaza Building will add 2 more group an 10 more trainee spaces." Margin="10,0,10,0"/>
+            <Grid BackgroundColor="Purple">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0" Text="Promo Levels: Insignificant" VerticalOptions="Center" TextColor="LightPink" Margin="20,0,0,0"/>
+                <Button Grid.Column="1" Text="Boost Promo for 30K Won!" VerticalOptions="Center" BackgroundColor="LightPink"  TextColor="Black" Margin="0,0,50,0"/>
+            </Grid>
+            <Label TextColor="White" Text="Boosting Promo will add more popularity to your groups. Promo Levels increase as your groups generate revenue." Margin="10,0,10,0"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Button Grid.Column="1" x:Name="Back" Text="Back" Clicked="OnClicked_Back" BackgroundColor="LightPink" TextColor="Black"/>
+            </Grid>        
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

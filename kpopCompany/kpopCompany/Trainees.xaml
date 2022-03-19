@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="kpopCompany.Trainees">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="Black" Padding="24" CornerRadius="0">
+                <Label Text="Test Company Trainees" HorizontalTextAlignment="Center" TextColor="LightPink" FontSize="36"/>
+            </Frame>
+            <Grid HeightRequest="100" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Image Grid.Column="0" Source="https://stardewvalleywiki.com/mediawiki/images/f/f8/Maru.png" VerticalOptions="Center" HeightRequest="60" Margin="0,0,0,0"/>
+                <Label Grid.Column="0" Text="Cardi C" VerticalOptions="Center" TextColor="LightPink" Margin="20,80,0,0"/>
+                <Label Grid.Column="1" Text="Good Dancer" VerticalOptions="Center" TextColor="LightPink" Margin="0,0,0,0" WidthRequest="200"/>
+                <Label Grid.Column="1" Text="17, Korean" VerticalOptions="Center" TextColor="LightPink" Margin="0,60,0,0" WidthRequest="200"/>
+                <Button Grid.Column="2" Text="Train" BackgroundColor="LightPink" TextColor="Black" Margin="0,40,10,0" HeightRequest="30"/>
+                <Button Grid.Column="3" Text="Group Debut" BackgroundColor="LightPink" TextColor="Black" Margin="0,40,10,0" HeightRequest="30"/>
+            </Grid>
+            <Grid HeightRequest="100" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Image Grid.Column="0" Source="https://stardewvalleywiki.com/mediawiki/images/2/28/Emily.png" VerticalOptions="Center" HeightRequest="60" Margin="0,0,0,0"/>
+                <Label Grid.Column="0" Text="ByulMoon" VerticalOptions="Center" TextColor="LightPink" Margin="20,80,0,0"/>
+                <Label Grid.Column="1" Text="Excellent Rapper, Good Dancer" VerticalOptions="Center" TextColor="LightPink" Margin="0,0,0,0" WidthRequest="200"/>
+                <Label Grid.Column="1" Text="19, Korean" VerticalOptions="Center" TextColor="LightPink" Margin="0,60,0,0" WidthRequest="200"/>
+                <Button Grid.Column="2" Text="Train" BackgroundColor="LightPink" TextColor="Black" Margin="0,40,10,0" HeightRequest="30"/>
+                <Button Grid.Column="3" Text="Group Debut" BackgroundColor="LightPink" TextColor="Black" Margin="0,40,10,0" HeightRequest="30"/>
+            </Grid>
+            <Grid HeightRequest="100" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Image Grid.Column="0" Source="https://stardewvalleywiki.com/mediawiki/images/4/4e/Sandy.png" VerticalOptions="Center" HeightRequest="60" Margin="0,0,0,0"/>
+                <Label Grid.Column="0" Text="Windy Slu" VerticalOptions="Center" TextColor="LightPink" Margin="20,80,0,0"/>
+                <Label Grid.Column="1" Text="Perfect Vocalist, Horrible Dancer" VerticalOptions="Center" TextColor="LightPink" Margin="0,0,0,0" WidthRequest="200"/>
+                <Label Grid.Column="1" Text="18, Thai" VerticalOptions="Center" TextColor="LightPink" Margin="0,60,0,0" WidthRequest="200"/>
+                <Button Grid.Column="2" Text="Train" BackgroundColor="LightPink" TextColor="Black" Margin="0,40,10,0" HeightRequest="30"/>
+                <Button Grid.Column="3" Text="Group Debut" BackgroundColor="LightPink" TextColor="Black" Margin="0,40,10,0" HeightRequest="30"/>
+            </Grid>
+            <Grid HeightRequest="100" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Image Grid.Column="0" Source="https://stardewvalleywiki.com/mediawiki/images/9/99/Kent.png" VerticalOptions="Center" HeightRequest="60" Margin="0,0,0,0"/>
+                <Label Grid.Column="0" Text="Small Matthew" VerticalOptions="Center" TextColor="Blue" Margin="20,80,0,0"/>
+                <Label Grid.Column="1" Text="Good Rapper, Perfect Visual" VerticalOptions="Center" TextColor="Blue" Margin="0,0,0,0" WidthRequest="200"/>
+                <Label Grid.Column="1" Text="20, American" VerticalOptions="Center" TextColor="Blue" Margin="0,60,0,0" WidthRequest="200"/>
+                <Button Grid.Column="2" Text="Train" BackgroundColor="Blue" TextColor="White" Margin="0,40,10,0" HeightRequest="30"/>
+                <Button Grid.Column="3" Text="Group Debut" BackgroundColor="Blue" TextColor="White" Margin="0,40,10,0" HeightRequest="30"/>
+            </Grid>
+            <Grid HeightRequest="100" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Image Grid.Column="0" Source="https://stardewvalleywiki.com/mediawiki/images/8/8b/Shane.png" VerticalOptions="Center" HeightRequest="60" Margin="0,0,0,0"/>
+                <Label Grid.Column="0" Text="Saehyun" VerticalOptions="Center" TextColor="Blue" Margin="20,80,0,0"/>
+                <Label Grid.Column="1" Text="No Skills Yet" VerticalOptions="Center" TextColor="Blue" Margin="0,0,0,0" WidthRequest="200"/>
+                <Label Grid.Column="1" Text="16, Korean" VerticalOptions="Center" TextColor="Blue" Margin="0,60,0,0" WidthRequest="200"/>
+                <Button Grid.Column="2" Text="Train" BackgroundColor="Blue" TextColor="White" Margin="0,40,10,0" HeightRequest="30"/>
+                <Button Grid.Column="3" Text="Group Debut" BackgroundColor="Blue" TextColor="White" Margin="0,40,10,0" HeightRequest="30"/>
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Button Grid.Column="1" x:Name="Back" Text="Back" Clicked="OnClicked_Back" BackgroundColor="White" TextColor="Black"/>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

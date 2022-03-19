@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="kpopCompany.STAR">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="LightPink">
+            <Frame BackgroundColor="Black" Padding="24" CornerRadius="0">
+                <Label Text="Test Company Groups   STAR" HorizontalTextAlignment="Center" TextColor="LightPink" FontSize="36"/>
+            </Frame>
+            <Label Text="CURRENTLY PERFORMING DEBUT COMEBACK" TextColor="Black" FontAttributes="Bold" FontSize="14" HorizontalOptions="Center"/>
+            <Label Margin="20,50,0,0"  Text="Group Name: STAR" TextColor="Black"/>
+            <Label Margin="20,50,0,0"  Text="Fandom Name: Fuzzy1er (37k members)" TextColor="Black"/>
+            <Label Margin="20,0,0,0"  TextColor="Black"  Text="Days since debut: 13"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0" Text="Wins: 0" VerticalOptions="Center" TextColor="Black" Margin="20,0,0,0"/>
+                <Button Grid.Column="1" Text="Join Comeback Stages." VerticalOptions="Center" BackgroundColor="Black"  TextColor="LightPink" WidthRequest="300" Margin="0,0,50,0"/>
+            </Grid>
+            <Grid HeightRequest="100" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0" Text="Albums: 0" VerticalOptions="Center" TextColor="Black" Margin="20,0,0,0"/>
+                <Label Grid.Column="0" Text="EPs: 0" VerticalOptions="Center" TextColor="Black" Margin="20,40,0,0"/>
+                <Label Grid.Column="0" Text="Singles: 1" VerticalOptions="Center" TextColor="Black" Margin="20,80,0,0"/>
+                <Button Grid.Column="1" Text="Head into the Studio" VerticalOptions="Center" BackgroundColor="Black"  TextColor="LightPink" WidthRequest="300" Margin="0,40,50,0"/>
+            </Grid>
+            <Label Text="MEMBERS" TextColor="Black" FontAttributes="Bold" HorizontalOptions="Center"/>
+            <Grid HeightRequest="100" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Image Grid.Column="0" Source="https://stardewvalleywiki.com/mediawiki/images/8/88/Abigail.png" VerticalOptions="Center" HeightRequest="60" Margin="0,0,0,0"/>
+                <Label Grid.Column="0" Text="Ayo Lip" VerticalOptions="Center" TextColor="Black" Margin="20,80,0,0"/>
+                <Label Grid.Column="1" Text="Leader, Main Vocalist" VerticalOptions="Center" TextColor="Black" Margin="0,0,0,0" WidthRequest="200"/>
+                <Label Grid.Column="1" Text="23, Korean" VerticalOptions="Center" TextColor="Black" Margin="0,60,0,0" WidthRequest="200"/>
+                <Button Grid.Column="2" Text="Train" BackgroundColor="Black" TextColor="LightPink" Margin="0,40,10,0" HeightRequest="30"/>
+                <Button Grid.Column="3" Text="Solo Debut" BackgroundColor="Black" TextColor="LightPink" Margin="0,40,10,0" HeightRequest="30"/>
+            </Grid>
+            <Grid HeightRequest="100" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Image Grid.Column="0" Source="https://stardewvalleywiki.com/mediawiki/images/1/1b/Haley.png" VerticalOptions="Center" HeightRequest="60" Margin="0,0,0,0"/>
+                <Label Grid.Column="0" Text="K.H (Kim Haley)" VerticalOptions="Center" TextColor="Black" Margin="20,80,0,0"/>
+                <Label Grid.Column="1" Text="Main Dancer, Main Visual" VerticalOptions="Center" TextColor="Black" Margin="0,0,0,0" WidthRequest="200"/>
+                <Label Grid.Column="1" Text="22, Korean" VerticalOptions="Center" TextColor="Black" Margin="0,60,0,0" WidthRequest="200"/>
+                <Button Grid.Column="2" Text="Train" BackgroundColor="Black" TextColor="LightPink" Margin="0,40,10,0" HeightRequest="30"/>
+                <Button Grid.Column="3" Text="Solo Debut" BackgroundColor="Black" TextColor="LightPink" Margin="0,40,10,0" HeightRequest="30"/>
+            </Grid>
+            <Grid HeightRequest="100" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Image Grid.Column="0" Source="https://stardewvalleywiki.com/mediawiki/images/e/e6/Leah.png" VerticalOptions="Center" HeightRequest="60" Margin="0,0,0,0"/>
+                <Label Grid.Column="0" Text="LiU" VerticalOptions="Center" TextColor="Black" Margin="20,80,0,0"/>
+                <Label Grid.Column="1" Text="Maknae, Main Rapper" VerticalOptions="Center" TextColor="Black" Margin="0,0,0,0" WidthRequest="200"/>
+                <Label Grid.Column="1" Text="20, Korean" VerticalOptions="Center" TextColor="Black" Margin="0,60,0,0" WidthRequest="200"/>
+                <Button Grid.Column="2" Text="Train" BackgroundColor="Black" TextColor="LightPink" Margin="0,40,10,0" HeightRequest="30"/>
+                <Button Grid.Column="3" Text="Solo Debut" BackgroundColor="Black" TextColor="LightPink" Margin="0,40,10,0" HeightRequest="30"/>
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Button Grid.Column="1" x:Name="Back" Text="Back" Clicked="OnClicked_Back" BackgroundColor="Black" TextColor="LightPink"/>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
